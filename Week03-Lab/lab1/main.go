@@ -11,8 +11,8 @@ import (
 
 func main() {
 
-	//targetHash := "6a85dfd77d9cb35770c9dc6728d73d3f"
-	targetHash :="b6ccb4ece5454dcae51778b3e239ebc2"
+	targetHash := "6a85dfd77d9cb35770c9dc6728d73d3f"
+	
 
 	// Create verbose output file
 	file, err := os.Create("verbose.txt")
